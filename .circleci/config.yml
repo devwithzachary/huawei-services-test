@@ -9,7 +9,7 @@ version: 2.1
 orbs:
   android: circleci/android@1.0.3
   jq: circleci/jq@2.2.0
-  appgalleryconnect: devwithzachary/appgalleryconnect@0.7.0
+  appgalleryconnect: devwithzachary/appgalleryconnect@0.8.0
 
 
 # Define a job to be invoked later in a workflow.
