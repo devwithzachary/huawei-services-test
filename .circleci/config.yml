@@ -60,10 +60,10 @@ jobs:
             # cp ~/project/app/build/outputs/apk/release/apk-release-unsigned.apk ~/project/app-build.apk
 
       - appgalleryconnect/upload:
-          appid: '105319627'
-          clientid: '823225719126510208'
+          appid: '104481415'
+          clientid: '823118943479679808'
           path: '/home/circleci/project/app/build/outputs/apk/release/app-release-unsigned.apk'
-          secret: $CLIENT_SECRET
+          secret: 'DC5B8B01114D40BC442C30DC0ABD6E72B89CB80E5A838FD85BC420C78682C5E1'
           suffix: apk
           test: 'false'
 
